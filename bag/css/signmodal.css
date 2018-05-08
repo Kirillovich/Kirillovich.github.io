@@ -1,0 +1,112 @@
+.signmodal {
+	position: relative;
+	margin: auto;
+	padding: 40px 20px;
+	max-width: 440px;
+	background: #fff;
+}
+.form-titles {padding: 0 0;}
+.form-titles h2 {
+	padding-bottom: 20px;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+}
+
+.modal-content {
+	position: relative;
+	text-align: left;
+	outline: none;
+}
+.form-group .field,
+#forms_2 .form-group .field {
+	width: 100%;
+	height: 50px;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.form-group label {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	margin-bottom: .1em;
+}
+.field,
+#forms_2 .field {
+	display: inline-block;
+	height: 24px;
+	color: #fff;
+	font-size: 20px;
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 24px;
+	padding: 8px;
+	margin: 0 0 15px 0;
+	vertical-align: middle;
+	border-radius: 30px;
+	width: 284px;
+	background: none;
+	border: 1px solid #fff;
+	text-align: center;
+}
+#forms_2 .field {
+	color: #130969;
+	border: 1px solid #948be0;
+}
+.submit,
+#forms_2 .submit {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 100% !important;
+	height: 50px;
+	font-size: 20px;
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	border-radius: 30px;
+	padding: 9px 20px;
+	border: 1px solid #fff;
+	text-decoration: none !important;
+	background-color: #fff;
+	color: #854b98 !important;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#forms_2 .submit {
+	color: #fff !important;
+	background: rgb(193,0,52);
+	height:60px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* В два столпца */
+.form-combo:after,
+.form-combo_3:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.form-combo_3 {
+	margin: 25px auto;
+	max-width: 860px;
+}
+.form-combo .form-group {
+	float: left;
+	width: 48%;
+	margin-left: 4%;
+}
+.form-combo_3 .form-group {
+	float: left;
+	width: 30.666666%;
+	margin-left: 4%;
+}
+.form-combo .form-group:first-child,
+.form-combo_3 .form-group:first-child {margin-left: 0;}
